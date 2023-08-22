@@ -1,0 +1,15 @@
+@keyframes Scale {
+0% {
+    transform: scale(98%);
+}   
+100% {
+    transform: scale(105%);
+} 
+}
+
+.registrar-link:hover {
+    color: rgb(156, 221, 5);
+}
+.boton-reg:hover {
+    animation: Scale 1s;
+}

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2? family= Lato:ital,wght@1,300 & family= Montserrat:wght@300 & display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color:aliceblue
+}
+header {
+    background-color:  white;
+    height: 65px;
+    width: 100%;
+    display: flex;
+    z-index: 10;
+    top: 0;
+    box-shadow: 0px 0px 5px rgb(24, 22, 22);
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+main {
+   
+        display: flex;
+        justify-content: space-around;
+        background-image: url(assets/img/bolson-estetico.avif);
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+}
+.registro-box {
+    background: rgb(233,191,19);
+    background: linear-gradient(0deg, rgba(233,191,19,0.4962359943977591) 0%, rgba(152,230,99,1) 100%);
+    box-shadow: 0px 0px 10px #335233;
+    width: 50vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-direction: column;
+    row-gap: 20px;
+}
+#nombre {
+    border-color: gray;
+    border-radius: 3px;
+padding: 10px;
+width: 200px;
+border-style: solid;
+color: gray;
+}
+#apellidos {
+    border-color: gray;
+    border-radius: 3px;
+padding: 10px;
+width: 200px;
+border-style: solid;
+color: gray;
+}
+#correo {
+    border-color: gray;
+    border-radius: 3px;
+padding: 10px;
+width: 200px;
+border-style: solid;
+color: gray;
+}
+#contraseña {
+    border-color: gray;
+    border-radius: 3px;
+padding: 10px;
+width: 200px;
+border-style: solid;
+color: gray;
+}
+#dia {
+    border-color: gray;
+    border-radius: 3px;
+padding: 10px;
+width: 150px;
+border-style: solid;
+color: gray;
+}
+#mes {
+    border-color: gray;
+    border-radius: 3px;
+padding: 10px;
+width: 200px;
+border-style: solid;
+color: gray;
+}
+.fecha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.genero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.genero-check {
+    display: flex;
+    gap: 10px;
+}
+.registrar-link {
+    background-color: rgb(231, 248, 155);
+    border-radius: 20px;
+    padding: 7px;
+    box-sizing: 3px;
+    border-color: rgba(141, 127, 127, 0.774);
+    border-style: solid;
+    text-shadow: 0px 0px 2px black;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: rgb(156, 221, 5);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}

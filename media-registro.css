@@ -1,0 +1,37 @@
+@media (max-width: 846px) {
+    .registro-box {
+        width: 80%;
+    }
+}
+header {
+    justify-content: center;
+}
+footer {
+    text-align: center;
+}
+@media (max-width: 540px) {
+    #nombre, #apellidos, #correo, #contraseña {
+        width: 380px;  
+      margin-bottom: 10px;
+}
+        .registro-box {
+            padding: 10px;
+            height: 800px;
+        }
+    }
+@media (max-width: 490px) {
+    main {
+height: 800px;
+    }
+    #nombre, #apellidos, #correo, #contraseña {
+        width: 100%;   
+}
+#dia, #mes {
+    width: 45%;
+    margin-bottom: 10px;
+}
+.registro-box {
+   height: 650px;   
+}
+
+}
